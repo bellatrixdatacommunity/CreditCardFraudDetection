@@ -9,17 +9,11 @@ Participants are encouraged to explore the dataset on their own and apply classi
 -   Fork and Clone this repo using the following command:
 
 ```
-$ git clone https://github.com/bellatrixdatacommunity/CreditCardFraudDetection.git
-$ cd CreditCardFraudDetection
+$ git clone https://github.com/<username>/CreditCardFraudDetection.git
+$ cd CreditCardFraudDetection/Notebooks/
 ```
 
--   Make a new branch using following command:
-
-```
-$ git checkout -b "new branch name"
-```
-
--   Make changes to `FraudDetection.ipynb` using classification algorithms of your choice, tune hyperparameters to get maximum accuracy.
+-   Make a copy of `FraudDetection.ipynb` and rename it as `FraudDetection-x.ipynb` (where x is unique for each participant).  
 -   Stage your changes, commit, and push using the following commands:
 
 ```
@@ -27,6 +21,13 @@ $ git add .
 $ git commit -m "<commit message>"
 $ git push origin
 ```
+
+- Once you are satisfied with your work, create a Pull Request (PR) on the **BX-GY** branch of this repository. (where X stands for batch number and Y stands for group number alloted to each participant).
+
+- Example a participant of Batch 1 Group 2 has been alloted the number 3.
+  - The participant must name the file as `FraudDetection-3.ipynb`
+  - The participant must work on his/her fork.
+  - Once satisfied, the participant will create a PR on the B1-G2 branch of [this](https://github.com/bellatrixdatacommunity/CreditCardFraudDetection) repository.
 
 ## Resources:
 
